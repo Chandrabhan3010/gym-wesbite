@@ -1,23 +1,23 @@
 .left{
-    border: solid red 2px;
+    /* border: solid red 2px; */
     display: inline-block;
     position: absolute;
     left: 34px;
     top: 18px;
 }
 .mid{
-    border: solid purple 2px;
+    /* border: solid purple 2px; */
     display: block;
-    width: 33%;
-    margin: 20px auto;
+    width: 36%;
+    margin: 33px auto;
    
 }
 .right{
     position: absolute;
     right: 34px;
-    top: 20px;
+    top: 43px;
     display: inline-block;
-    border: solid sandybrown 2px;
+    /* border: solid sandybrown 2px; */
 }
 .navbar{
     display: inline-block;
@@ -36,11 +36,12 @@
     color: grey;
 }
 .left img{
-    width: 100px;
+    width:80px;
     cursor: pointer;
 }
 .left div{
     text-align: center;
+    line-height: 0px;
     cursor: pointer;
 }
 .btn{
@@ -51,7 +52,33 @@
     border: 2px solid grey;
     font-size: 20px;
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
 }
 .btn:hover{
-    background-color: greenyellow;
+    background-color: rgb(92, 104, 105);
+}
+.container{
+    /* border: 2px white solid; */
+    margin: 102px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    margin: 11px auto;
+    border-radius: 8px;
+    background-color: black;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin:20px auto;
 }

@@ -82,3 +82,11 @@
     width: 74%;
     margin:20px auto;
 }
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
